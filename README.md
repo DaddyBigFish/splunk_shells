@@ -55,7 +55,7 @@ SHELLTYPE - Specify std or msf<br>
 std = Standard Shell<br>
 msf = Meterpreter Shell<br>
 
-PORTNUMBER - Specify the port you want the bind shell to listen on.
+PORTNUMBER - Specify the port you want the bind shell to listen on.<br>
 Defaults to 8888
 
 
